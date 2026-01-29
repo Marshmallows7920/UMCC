@@ -1,40 +1,40 @@
 ---
-title: Features
-description: The Main features of the app
+title: Events
+description: Events Information
 top-image:
 bottom_image:
 ---
-<!-- This file allows us to customize the layout of the features page. -->
+<!-- This file allows us to customize the layout of the events page. -->
 <section class="hero" style="background-image: url({{ site.baseurl }}/images/background/background_team.jpg)">
     <div class="inner-hero text-container">
         <div class="hero-text-container">
             <h1 class="editable" style="font-size: 5.8em; color: white;">
-                Features
+                Events
             </h1>
             <!-- <p class="subtext editable">
                 <br>
-                List of some of our features.
+                List of recent events
                 <br><br>
             </p> -->
         </div>
     </div>
     <div class="learn-more">
-        <a href="#view-features" class="button hvr-float">
-            View Features
+        <a href="#view-events" class="button hvr-float">
+            View Events
             <span class="arrow">
                 ▼
             </span>
         </a>
     </div>
 </section>
-<div class="content" id="view-features">
+<div class="content" id="view-events">
 
-    <!--Upcoming Features-->
+    <!--Upcoming Events-->
     <!-- Remember to change the first three IDs so it links from homepage -->
 
     <div class="upcoming-events-text" style="padding-top: 40px">
         <h2 data-aos="fade-up" class="editable">
-                Latest Features
+                Latest Events
         </h2>
     </div>
 
@@ -56,28 +56,28 @@ bottom_image:
                                 </span>
                             </div>
                             <div class="event-date" style="padding-left:0.6em" >
-                                {{ feature.day }}
+                                {{ event.day }}
                             </div>
             
                         <div>
                         <h2 class="event-title" style="font-size: 40px;padding-left:0.22em">
-                            {{ feature.title }}
+                            {{ event.title }}
                         </h2>
                         </div>
                     
                         <div class="time-place" style="padding-left:1em">
                             <div class="event-time">
-                                {{ feature.iteration }} 
+                                {{ event.time }} 
                             </div>
                             <div class="event-place" style="margin-bottom: 20px" style="padding-left:1em">
-                                {{ feature.summary }}
+                                {{ event.summary }}
                             </div>
                         </div>
                     </div>
                     </div>
                     <div data-aos="fade-up" class="text" style="padding-top:20px">
                         <p class="editable event-page-description" style="font-size: 20px">
-                            {{ feature.description }} 
+                            {{ event.description }} 
                         </p>
     
                     </div>
