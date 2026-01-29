@@ -120,13 +120,13 @@ social_icons:
   - LinkedIn
   # - Pinterest
   # - Tumblr
-  # - Twitter
+  - Twitter
   # - YouTube
   - Email
   # - RSS
 
 _comments:
   description: TThe home of conservative-minded students at the University of Manitoba.
-  blurb: Sign up below to become a member!
+  blurb: Sign up below to become a member! http://forms.gle/9vDrwqrXbD4XMnGSA
 
 encoding: utf-8
