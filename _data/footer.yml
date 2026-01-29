@@ -2,12 +2,12 @@
 left_links:
 - name: About
   link: "/about/"
-- name: Features
-  link: "/features/"
+- name: Club Membership
+  link: "/membership/"
 - name: Team
   link: "/team/"
 right_links:
-  - name: Demo
-    link: https://youtu.be/huzAPKFdEf8
+  - name: Sign Up
+    link: http://forms.gle/9vDrwqrXbD4XMnGSA
     # social_icon: Youtube
     new_window: true
