@@ -1,6 +1,6 @@
 ---
 image: bg4.jpg
-# day: Monday, June 30, 2025
+day: Monday, June 30, 2025
 title: Song Playlists
 iteration: Iteration 1
 summary: To allow users to better organize their songs and make browsing their music much easier. 
