@@ -17,3 +17,7 @@ gem "jekyll-seo-tag", "~> 2.8"
 gem "jekyll-feed", "~> 0.17.0"
 
 gem "jekyll-archives", "~> 2.2"
+
+gem "tzinfo"
+
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

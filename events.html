@@ -5,7 +5,7 @@ top-image:
 bottom_image:
 ---
 <!-- This file allows us to customize the layout of the events page. -->
-<section class="hero" style="background-image: url({{ site.baseurl }}/images/background/background_team.jpg)">
+<section class="hero" style="background-image: url({{ site.baseurl }}/images/IMG_1332.JPG)">
     <div class="inner-hero text-container">
         <div class="hero-text-container">
             <h1 class="editable" style="font-size: 5.8em; color: white;">
@@ -38,20 +38,17 @@ bottom_image:
         </h2>
     </div>
 
-    <div data-aos="fade-up" class="button-all-events" style="padding-bottom: 40px; align-content: center">
-        <a href="https://youtu.be/huzAPKFdEf8" target="_blank" rel="noopener noreferrer">See Demo</a>
-    </div>
 
     <!--Line break-->
 
-    {% for feature in site.features %}
+    {% for event in site.events %}
             <div class="event-page-container">
-                <div class="container-row" {% if feature.upcoming %} id="{{ feature.upcoming }}" {% endif %}>
+                <div class="container-row" {% if event.upcoming %} id="{{ event.upcoming }}" {% endif %}>
                     <div data-aos="fade-up" class="event-page-info">
                         <div class="event-page-column" style="width: 500px">
                             <div class="event-image">
                                 <span class="lw_item_thumb">
-                                    <img height="250" src="{{ site.baseurl }}/images/features/mini/{{ feature.image }}" width="500" style="padding-bottom:1em">
+                                    <img height="250" src="{{ site.baseurl }}/images/events/mini/{{ event.image }}" width="500" style="padding-bottom:1em">
                                     </img>
                                 </span>
                             </div>
