@@ -1,0 +1,13 @@
+# This file allows us to add or delete navigation links in the footer bar
+left_links:
+- name: About
+  link: "/about/"
+- name: Club Membership
+  link: "/membership/"
+- name: Team
+  link: "/team/"
+right_links:
+  - name: Sign Up
+    link: http://forms.gle/9vDrwqrXbD4XMnGSA
+    # social_icon: Youtube
+    new_window: true
